@@ -40,31 +40,14 @@ function setup() {
 function mySelectEvent(){
   var shirtFit=fits.value();
   if(shirtFit===regular){
-     collarR.position(300,200)
-     collarR.option('regular');
-     collarR.option('pointed');
-     collarR.option('chinese');
-     collorR.changed(mySelectEvent2);
+    text("fit is regular",200,200);
   }else if(shirtFit===modern){
-     collarM.position(300,200);
-     collarM.option('regular');
-     collarM.option('pointed');
-     collarM.option('chinese');
-     collarM.changed(mySelectEvent3);
+    text("fit is modern",200,200);
 
   }else if(shirtFit===slim){
-    collarS.position(300,200);
-    collarS.option('regular');
-    collarS.option('pointed');
-    collarS.option('chinese');
-    collarS.changed(mySelectEvent4);
-
+    text("fit is slim",200,200);
   }else if(shirtFit===classic){
-    collarC.position(300,200);
-    collarC.option('regular');
-    collarC.option('pointed');
-    collarC.option('chinese');
-    collarC.changed(mySelectEvent5);
+    text("fit is classic",200,200);
 
   }
 
